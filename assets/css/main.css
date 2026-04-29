@@ -100,7 +100,7 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: #555; /* 가독성을 위해 살짝 진하게 조정 */
   font-family: "Lato", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -108,19 +108,19 @@ textarea {
 }
 
 a {
-  color: #888;
+  color: #35591b; /* 기본 링크색을 헤더색과 맞춤 */
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: solid 1px #e4e4e4;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #0056b3 !important;
+  color: #4a7c28 !important; /* 호버 시 약간 밝은 녹색 */
 }
 
 strong,
 b {
-  color: #777;
+  color: #444;
   font-weight: 700;
 }
 
@@ -193,7 +193,7 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 2px #888;
+  border-bottom: solid 2px #e4e4e4; /* 연한 경계선 */
   margin: 2.25em 0;
 }
 hr.major {
@@ -201,16 +201,16 @@ hr.major {
 }
 
 blockquote {
-  border-left: solid 8px #e4e4e4;
+  border-left: solid 8px #d4dfd0; /* 부드러운 녹색 계열 연회색 */
   font-style: italic;
   margin: 0 0 2.25em 0;
   padding: 0.5em 0 0.5em 2em;
 }
 
 code {
-  background: #f8f9fa;
+  background: #f0f4ef; /* 연한 녹색 바탕의 코드 배경 */
   border-radius: 5px;
-  color: #fff;
+  color: #35591b;
   font-family: "Source Code Pro", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -1394,7 +1394,7 @@ article.special {
 }
 
 header p {
-  color: #aaa;
+  color: #888;
   position: relative;
   margin: 0 0 1.6875em 0;
 }
@@ -1416,11 +1416,11 @@ header h6 + p {
   line-height: 1.5em;
 }
 header.major h2 {
-  color: #0056b3;
+  color: #35591b; /* 타이틀 색상 변경 */
   font-size: 3.5em;
 }
 header.major h2 + p {
-  color: #777;
+  color: #5d6d58; /* 어울리는 톤다운된 녹색계열 */
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
@@ -1432,7 +1432,7 @@ form {
 }
 
 label {
-  color: #777;
+  color: #555;
   display: block;
   font-size: 0.9em;
   font-weight: 700;
@@ -1474,7 +1474,7 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #0056b3;
+  border-color: #35591b; /* 포커스 색상 */
 }
 
 select {
@@ -1563,14 +1563,14 @@ input[type=radio] + label:before {
 }
 input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
-  background: #989898;
-  border-color: #989898;
+  background: #35591b; /* 선택된 색상 */
+  border-color: #35591b;
   color: #fffaf0;
   content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #0056b3;
+  border-color: #35591b;
 }
 
 input[type=checkbox] + label:before {
@@ -1829,7 +1829,7 @@ ul.alt {
   padding-left: 0;
 }
 ul.alt li {
-  border-top: solid 2px #888;
+  border-top: solid 2px #e4e4e4;
   padding: 0.5em 0;
 }
 ul.alt li:first-child {
@@ -1959,7 +1959,7 @@ ul.feature-icons li:before {
   font-weight: 400;
 }
 ul.feature-icons li:before {
-  background: #0056b3;
+  background: #35591b; /* 아이콘 배경색 변경 */
   border-radius: 100%;
   color: #fffaf0;
   display: block;
@@ -2000,28 +2000,28 @@ table {
   width: 100%;
 }
 table tbody tr {
-  border: solid 2px #888;
+  border: solid 2px #e4e4e4;
   border-left: 0;
   border-right: 0;
 }
 table tbody tr:nth-child(2n+1) {
-  background-color: #fafafa;
+  background-color: #f0f4ef; /* 연한 녹색 바탕 */
 }
 table td {
   padding: 0.75em 0.75em;
 }
 table th {
-  color: #777;
+  color: #35591b;
   font-size: 0.9em;
   font-weight: 700;
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
 table thead {
-  border-bottom: solid 4px #e4e4e4;
+  border-bottom: solid 4px #d4dfd0;
 }
 table tfoot {
-  border-top: solid 4px #e4e4e4;
+  border-top: solid 4px #d4dfd0;
 }
 table.alt {
   border-collapse: separate;
@@ -2053,7 +2053,7 @@ input[type=button],
   -webkit-appearance: none;
   appearance: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #989898;
+  background-color: #5d6d58; /* 기본 버튼 색상 (올리브그린 톤) */
   border-radius: 5px;
   border: 0;
   color: #fffaf0 !important;
@@ -2071,14 +2071,14 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
 .button:hover {
-  background-color: #a5a5a5;
+  background-color: #6d7d68;
   color: #fffaf0 !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active,
 .button:active {
-  background-color: #8b8b8b;
+  background-color: #4a5a45;
 }
 input[type=submit].icon,
 input[type=reset].icon,
@@ -2116,45 +2116,45 @@ input[type=button].alt,
 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #e4e4e4;
-  color: #777 !important;
+  color: #35591b !important;
 }
 input[type=submit].alt:hover,
 input[type=reset].alt:hover,
 input[type=button].alt:hover,
 .button.alt:hover {
-  background-color: #888;
-  color: #777 !important;
+  background-color: #f0f4ef;
+  color: #35591b !important;
 }
 input[type=submit].alt:active,
 input[type=reset].alt:active,
 input[type=button].alt:active,
 .button.alt:active {
-  background-color: #eaeaea;
+  background-color: #d4dfd0;
 }
 input[type=submit].alt.icon:before,
 input[type=reset].alt.icon:before,
 input[type=button].alt.icon:before,
 .button.alt.icon:before {
-  color: #aaa;
+  color: #35591b;
 }
 input[type=submit].primary,
 input[type=reset].primary,
 input[type=button].primary,
 .button.primary {
-  background-color: #0056b3;
+  background-color: #35591b; /* 프라이머리 버튼 변경 */
   color: #fffaf0 !important;
 }
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
 input[type=button].primary:hover,
 .button.primary:hover {
-  background-color: #007e00;
+  background-color: #4a7c28;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
 input[type=button].primary:active,
 .button.primary:active {
-  background-color: #004b00;
+  background-color: #264113;
 }
 input[type=submit].disabled, input[type=submit]:disabled,
 input[type=reset].disabled,
@@ -2172,7 +2172,7 @@ input[type=button]:disabled,
 
 /* Features */
 .features article {
-  border-top: solid 3px #888;
+  border-top: solid 3px #d4dfd0; /* 경계선 색상 변경 */
   margin-bottom: 2.25em;
   padding-top: 2.25em;
 }
@@ -2209,7 +2209,7 @@ input[type=button]:disabled,
   -moz-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #0056b3;
+  background: #35591b; /* 요청하신 색상으로 변경 */
   color: #f8f9fa;
   height: 100%;
   overflow-y: auto;
@@ -2236,13 +2236,13 @@ input[type=button]:disabled,
   color: #f8f9fa;
 }
 #header header p {
-  color: #f8f9fa;
+  color: #d4dfd0; /* 연한 녹색 톤으로 가독성 조정 */
 }
 #header a {
   color: #f8f9fa;
 }
 #header a:hover {
-  color: #888 !important;
+  color: #d4dfd0 !important;
 }
 #header > header {
   -ms-flex-shrink: 0;
@@ -2259,7 +2259,7 @@ input[type=button]:disabled,
   margin: 0;
 }
 #header > header p {
-  color: #bfd5b4;
+  color: #a6c498; /* 부드러운 녹색 */
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2275,7 +2275,7 @@ input[type=button]:disabled,
   margin: 0;
 }
 #header > footer .icons li a {
-  color: #99be90;
+  color: #a6c498;
 }
 #header > nav {
   -moz-flex-grow: 1;
@@ -2288,7 +2288,7 @@ input[type=button]:disabled,
   padding: 0;
 }
 #header > nav ul li {
-  border-top: solid 2px #0056b3;
+  border-top: solid 2px #416e21; /* 헤더보다 살짝 밝은 경계선 */
   display: block;
   padding: 0;
 }
@@ -2302,7 +2302,7 @@ input[type=button]:disabled,
 }
 #header > nav ul li a.active {
   background: #fffaf0;
-  color: #0056b3 !important;
+  color: #35591b !important; /* 액티브 메뉴 색상 */
 }
 #header > nav ul li:first-child {
   border-top: 0;
@@ -2316,7 +2316,7 @@ input[type=button]:disabled,
 
 /* Main */
 #main > section {
-  border-top: solid 6px #888;
+  border-top: solid 6px #d4dfd0; /* 연한 경계선 */
 }
 #main > section > .container {
   padding: 6em 0 4em 0;
@@ -2329,7 +2329,7 @@ input[type=button]:disabled,
 #footer {
   background: #f8f9fa;
   border-top: 0;
-  color: #c0c0c0;
+  color: #888;
   overflow: hidden;
   padding: 4em 0 2em 0;
 }
@@ -2466,7 +2466,7 @@ input[type=button]:disabled,
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #222;
+    background: #2a3d20; /* 모바일 상단 바를 헤더보다 살짝 더 어두운 색으로 조정 */
     color: #f8f9fa;
     min-width: 320px;
   }
@@ -2507,7 +2507,7 @@ input[type=button]:disabled,
     font-weight: 900;
   }
   #titleBar .toggle:before {
-    background: #0056b3;
+    background: #35591b; /* 모바일 토글 버튼 색상 */
     color: #f8f9fa;
     content: "\f0c9";
     display: block;
