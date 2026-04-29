@@ -2012,7 +2012,7 @@ input[type=submit].disabled,
   width: 23em;
   right: 0;
 }
-#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 { color: #f4f7f6; }
+#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 { color: #f4f7f6; font-size: 40px; }
 #header header p { color: #bdc3c7; }
 #header a { color: #f4f7f6; }
 #header a:hover { color: #bdc3c7 !important; }
