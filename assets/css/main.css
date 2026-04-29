@@ -100,7 +100,7 @@ body,
 input,
 select,
 textarea {
-  color: #555; /* 가독성을 위해 살짝 진하게 조정 */
+  color: #555; 
   font-family: "Lato", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -108,14 +108,14 @@ textarea {
 }
 
 a {
-  color: #35591b; /* 기본 링크색을 헤더색과 맞춤 */
+  color: #35591b; 
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: solid 1px #e4e4e4;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #4a7c28 !important; /* 호버 시 약간 밝은 녹색 */
+  color: #4a7c28 !important; 
 }
 
 strong,
@@ -193,7 +193,7 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 2px #e4e4e4; /* 연한 경계선 */
+  border-bottom: solid 2px #e4e4e4;
   margin: 2.25em 0;
 }
 hr.major {
@@ -201,14 +201,14 @@ hr.major {
 }
 
 blockquote {
-  border-left: solid 8px #d4dfd0; /* 부드러운 녹색 계열 연회색 */
+  border-left: solid 8px #d4dfd0;
   font-style: italic;
   margin: 0 0 2.25em 0;
   padding: 0.5em 0 0.5em 2em;
 }
 
 code {
-  background: #f0f4ef; /* 연한 녹색 바탕의 코드 배경 */
+  background: #f0f4ef;
   border-radius: 5px;
   color: #35591b;
   font-family: "Source Code Pro", monospace;
@@ -1416,11 +1416,11 @@ header h6 + p {
   line-height: 1.5em;
 }
 header.major h2 {
-  color: #35591b; /* 타이틀 색상 변경 */
+  color: #35591b; 
   font-size: 3.5em;
 }
 header.major h2 + p {
-  color: #5d6d58; /* 어울리는 톤다운된 녹색계열 */
+  color: #5d6d58; 
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
@@ -1474,7 +1474,7 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #35591b; /* 포커스 색상 */
+  border-color: #35591b; 
 }
 
 select {
@@ -1563,7 +1563,7 @@ input[type=radio] + label:before {
 }
 input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
-  background: #35591b; /* 선택된 색상 */
+  background: #35591b; 
   border-color: #35591b;
   color: #fffaf0;
   content: "\f00c";
@@ -1959,7 +1959,7 @@ ul.feature-icons li:before {
   font-weight: 400;
 }
 ul.feature-icons li:before {
-  background: #35591b; /* 아이콘 배경색 변경 */
+  background: #35591b;
   border-radius: 100%;
   color: #fffaf0;
   display: block;
@@ -2005,7 +2005,7 @@ table tbody tr {
   border-right: 0;
 }
 table tbody tr:nth-child(2n+1) {
-  background-color: #f0f4ef; /* 연한 녹색 바탕 */
+  background-color: #f0f4ef;
 }
 table td {
   padding: 0.75em 0.75em;
@@ -2053,7 +2053,7 @@ input[type=button],
   -webkit-appearance: none;
   appearance: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #5d6d58; /* 기본 버튼 색상 (올리브그린 톤) */
+  background-color: #5d6d58; 
   border-radius: 5px;
   border: 0;
   color: #fffaf0 !important;
@@ -2141,7 +2141,7 @@ input[type=submit].primary,
 input[type=reset].primary,
 input[type=button].primary,
 .button.primary {
-  background-color: #35591b; /* 프라이머리 버튼 변경 */
+  background-color: #35591b; 
   color: #fffaf0 !important;
 }
 input[type=submit].primary:hover,
@@ -2172,7 +2172,7 @@ input[type=button]:disabled,
 
 /* Features */
 .features article {
-  border-top: solid 3px #d4dfd0; /* 경계선 색상 변경 */
+  border-top: solid 3px #d4dfd0; 
   margin-bottom: 2.25em;
   padding-top: 2.25em;
 }
@@ -2209,7 +2209,7 @@ input[type=button]:disabled,
   -moz-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #35591b; /* 요청하신 색상으로 변경 */
+  background: #35591b; 
   color: #f8f9fa;
   height: 100%;
   overflow-y: auto;
@@ -2236,7 +2236,7 @@ input[type=button]:disabled,
   color: #f8f9fa;
 }
 #header header p {
-  color: #d4dfd0; /* 연한 녹색 톤으로 가독성 조정 */
+  color: #d4dfd0; 
 }
 #header a {
   color: #f8f9fa;
@@ -2259,8 +2259,7 @@ input[type=button]:disabled,
   margin: 0;
 }
 #header > header p {
-  color: #a6c498; /* 부드러운 녹색 */
-  font-style: italic;
+  color: #a6c498; 
   margin: 1em 0 0 0;
 }
 #header > footer {
@@ -2288,7 +2287,7 @@ input[type=button]:disabled,
   padding: 0;
 }
 #header > nav ul li {
-  border-top: solid 2px #416e21; /* 헤더보다 살짝 밝은 경계선 */
+  border-top: solid 2px #416e21; 
   display: block;
   padding: 0;
 }
@@ -2302,7 +2301,7 @@ input[type=button]:disabled,
 }
 #header > nav ul li a.active {
   background: #fffaf0;
-  color: #35591b !important; /* 액티브 메뉴 색상 */
+  color: #35591b !important;
 }
 #header > nav ul li:first-child {
   border-top: 0;
@@ -2316,7 +2315,7 @@ input[type=button]:disabled,
 
 /* Main */
 #main > section {
-  border-top: solid 6px #d4dfd0; /* 연한 경계선 */
+  border-top: solid 6px #d4dfd0; 
 }
 #main > section > .container {
   padding: 6em 0 4em 0;
@@ -2466,7 +2465,7 @@ input[type=button]:disabled,
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #2a3d20; /* 모바일 상단 바를 헤더보다 살짝 더 어두운 색으로 조정 */
+    background: #2a3d20;
     color: #f8f9fa;
     min-width: 320px;
   }
@@ -2507,7 +2506,7 @@ input[type=button]:disabled,
     font-weight: 900;
   }
   #titleBar .toggle:before {
-    background: #35591b; /* 모바일 토글 버튼 색상 */
+    background: #35591b;
     color: #f8f9fa;
     content: "\f0c9";
     display: block;
